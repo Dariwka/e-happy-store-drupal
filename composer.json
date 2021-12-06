@@ -26,8 +26,10 @@
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drupal/devel": "^4.1",
+        "drupal/facets_pretty_paths": "^1.1",
         "drupal/pathauto": "^1.8",
         "drupal/redis": "^1.5",
+        "drupal/search_api": "^1.21",
         "drupal/sshop": "^1.12",
         "drush/drush": "^10.6",
         "platformsh/config-reader": "^2.4"
