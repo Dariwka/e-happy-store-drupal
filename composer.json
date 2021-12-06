@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/color_field": "^2.5",
         "drupal/commerce": "^2.28",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
