@@ -54,6 +54,12 @@
             {{ product.body }}
           </div>
         </div>
+        <div id="specification" name="specification" class="tab-pane fade in">
+          <h3 class="tab-title">{{ 'Specification'|t }}</h3>
+          <div class="specification-content">
+            {{ product.field_specification }}
+          </div>
+        </div>
         {% if reviews_count %}
           <div id="reviews" name="reviews" class="tab-pane fade">
             <h3 class="tab-title">
