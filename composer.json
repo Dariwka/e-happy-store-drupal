@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.0",
+        "drupal/asset_injector": "^2.8",
         "drupal/bootstrap_basic_image_gallery": "^1.5",
         "drupal/color_field": "^2.5",
         "drupal/colorbox": "^1.7",

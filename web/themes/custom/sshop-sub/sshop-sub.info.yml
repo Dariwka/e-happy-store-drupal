@@ -1,0 +1,25 @@
+name: Sshop Subtheme
+type: theme
+description: This is a sub theme of Sshop
+core: 8.x
+core_version_requirement: ^8 || ^9
+# Defines the base theme
+base theme: sshop
+# Defines libraries group in which we can add css/js.
+libraries:
+  - sshop-sub/global-styling
+#Regions.
+regions:
+  navigation: "Navigation"
+  navigation_collapsible: "Navigation (Collapsible)"
+  highlighted: "Highlighted"
+  help: "Help"
+  header: "Header"
+  content: "Content"
+  sidebar_first: "Left Sidebar"
+  sidebar_second: "Right Sidebar"
+  footer_first: "Footer First Widget"
+  footer_second: "Footer Second Widget"
+  footer_third: "Footer Third Widget"
+  footer_fourth: "Footer Fourth Widget"
+  footer: "Footer Bottom"
