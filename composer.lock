@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df3f2db37926c7773b9bde40b155cf87",
+    "content-hash": "667cd4ba6ac68262c8fe85ad47492ac5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4315,6 +4315,70 @@
             "homepage": "https://www.drupal.org/project/jquery_ui_tabs",
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui_tabs"
+            }
+        },
+        {
+            "name": "drupal/modal_page",
+            "version": "dev-4.1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/modal_page.git",
+                "reference": "e76de511dee30bdea08f34c1ad052373908bc694"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.1.x": "4.1.x-dev"
+                },
+                "drupal": {
+                    "version": "4.1.7+5-dev",
+                    "datestamp": "1637248289",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/2841111/committers",
+                    "role": "Developer"
+                },
+                {
+                    "name": "felribeiro",
+                    "homepage": "https://www.drupal.org/user/1902796"
+                },
+                {
+                    "name": "larruda",
+                    "homepage": "https://www.drupal.org/user/1009514"
+                },
+                {
+                    "name": "maikelfinck",
+                    "homepage": "https://www.drupal.org/user/3232037"
+                },
+                {
+                    "name": "paulocs",
+                    "homepage": "https://www.drupal.org/user/3640109"
+                },
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                }
+            ],
+            "description": "Create modal for specifics pages.",
+            "homepage": "https://www.drupal.org/project/modal_page",
+            "support": {
+                "source": "https://git.drupalcode.org/project/modal_page",
+                "issues": "https://www.drupal.org/project/issues/modal_page",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {
@@ -10056,6 +10120,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/commerce_paypal": 5,
+        "drupal/modal_page": 20,
         "drupal/simplenews": 20
     },
     "prefer-stable": true,
